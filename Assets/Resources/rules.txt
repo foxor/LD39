@@ -1,0 +1,3 @@
+Rules:
+
+There are power plants, lines and buildings.  Lines pass power from plants to buildings.  Buildings have a number on them that represents the power they need.  Whenever a power plant is placed decrement by the number on each connected, "open" building by that plant's power.  If the number becomes 0, that building is now closed.  If a number goes negative, you lose.  Each successive plant decreases the power output of the next by 1.  Using a line to connect a building to a grid does not apply power.
